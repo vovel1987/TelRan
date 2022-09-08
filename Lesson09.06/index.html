@@ -53,17 +53,30 @@
         box-sizing: border-box;
       }
       .block__header {
-        height: 30%;
-        background-color: burlywood;
+        height: 10%;
+        background-color: #f6f7ff ;
       }
+      .block__article1 {
+    height: 50%;
+    background-color:
+#f6f7ff ;
+}
+      .article__block {
+    height: 25%;
+}
       .block__article {
-        height: 15%;
-        background-color: azure;
+        height: 20%;
+        background-color:white;
+        display: flex;
       }
       .block__main {
       
        
       }
+      article.block__article {
+    height: 50%;
+}
+      
       .aside__header {
         height: 10%;
         background-color: #f6f7ff;
@@ -182,6 +195,7 @@
       .menu__item-name {
         font-size: .75rem;
         font-weight: 500;
+        padding-left: 1rem;
       }
       .menu__text {
         display: flex;
@@ -230,7 +244,72 @@ span.aside__input {
     background: red;
     border-radius: 50%;
 }
+.button__asidefooter{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    border-radius: 5px;
+    border-style: hidden;
 
+}
+.article__element1 {
+    width: calc(100%/3);
+    height: 100%;
+    background: linear-gradient(343deg, #b88ac1bd, transparent);
+    margin-top: -4rem;
+}
+.article__element2 {
+    width: calc(100%/3);
+    height: 100%;
+    background:#ffe8db  ;
+    margin-top: -4rem;
+}
+.article__element3 {
+    width: calc(100%/3);
+    height: 100%;
+    background: #e6e1e7 ;
+    margin-top: -4rem;
+}
+.block__article {
+    height: 30%;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    gap: 1rem;
+    padding: 0 20px;
+}
+span.elements__card1 {
+    display: flex;
+    justify-content: space-around;
+}
+span.element__card2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span.element__card3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p.card__title1 {
+    font-size: 12px;
+    font-weight: 700;
+}
+p.card__title2 {
+    font-size: 12px;
+    color: #a0a1aa;
+    text-decoration: underline;
+}
+p.card__title3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+p.card__title4 {
+    padding-right: 0.5rem;
+    font-size: 12px;
+    font-weight: 700;
+}
 
     </style>
   </head>
@@ -397,7 +476,7 @@ span.aside__input {
               
               <a href="">
                 <span> 
-                  <input type="text" placeholder="Go To Help Center">
+                 <button class="button__asidefooter">Go To Help Center</button>
                 </span>
               </a>
             </span>
@@ -443,9 +522,42 @@ span.aside__input {
           </nav>
           <div class="nav__elements"></div>
 
-          <nav></nav>
+          
         </div>
-        <div class="block__article"></div>
+      <div class="article__block">
+
+        <div class="block__article1"></div>
+    <article class="block__article">
+      <div class="article__element1">
+        <span class="elements__card1">
+          <p class="card__title1">Your Working Balance</p>
+          <p class="card__title2">Saving Account</p>
+        </span>
+        <span class="element__card2">
+          <p class="card__title3">PKR 9,250,000</p>
+          <span class="element__card3">
+          <p class="card__title4">PKR</p>
+          <p class="card__title5"><i class="las la-angle-down"></i></p>
+          </span>
+        </span>
+
+
+
+      </div>
+      <div class="article__element2"></div>
+      <div class="article__element3"></div>
+    </article>
+      </div>
+
+
+
+
+
+
+
+
+
+   
         <div class="block__main"></div>
       </div>
     </div>
