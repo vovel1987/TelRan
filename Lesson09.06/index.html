@@ -61,8 +61,8 @@
         background-color: azure;
       }
       .block__main {
-        height: 55%;
-        background-color: coral;
+      
+       
       }
       .aside__header {
         height: 10%;
@@ -161,6 +161,36 @@
      .links *:not(:last-child){
       margin-right: 2rem;
      }
+     
+     .menu__list {
+        list-style-type: none;
+        padding-left: 1rem;
+      }
+      .menu__link {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        align-items: center;
+      }
+      .menu__icon--medium {
+        font-size: 1.5rem;
+      }
+      .menu__icon--small {
+        font-size: .7rem;
+        padding-right: 1rem;
+      }
+      .menu__item-name {
+        font-size: .75rem;
+        font-weight: 500;
+      }
+      .menu__text {
+        display: flex;
+        align-items: center;
+      }
+      h3.aside__h2 {
+    text-align: initial;
+    padding-left: 1rem;
+}
     </style>
   </head>
   <body>
@@ -172,46 +202,152 @@
           </div>
           <div class="aside__element">
             <h3 class="aside__h2">Mein Navigation</h3>
-            <div class="cont">
-              <div class="element__aside">
-                <ul>
-                  <li>
-                    <a href="">
-                      <span> </span
-                      ><img src="image.img/dashboard.png" alt="" />Dashboard</a
-                    >
+           
+              
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a href="./" class="menu__link">
+                      <span class="menu__text">
+                        <span class="menu__icon menu__icon--medium">
+                          <i class="las la-th-large"></i>
+                        </span>
+      
+                        <span class="menu__item-name"> Dashboard </span>
+                      </span>
+      
+                      <span class="menu__icon menu__icon--small">
+                        <i class="las la-angle-right"></i>
+                      </span>
+                    </a>
                   </li>
-
-                  <li><a href="image.img/transaction.png">Transaction</a></li>
-                  <li><a href="image.img/contacts.png">Contacts</a></li>
-                  <li><a href="image.img/feature.png">Features</a></li>
-                  <li><a href="image.img/book.png">Library</a></li>
+                  <li class="menu__item">
+                    <a href="./" class="menu__link">
+                      <span class="menu__text">
+                        <span class="menu__icon menu__icon--medium">
+                          <i class="las la-file-invoice"></i></i>
+                        </span>
+      
+                        <span class="menu__item-name"> Transaction </span>
+                      </span>
+      
+                      <span class="menu__icon menu__icon--small">
+                        <i class="las la-angle-right"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="./" class="menu__link">
+                      <span class="menu__text">
+                        <span class="menu__icon menu__icon--medium">
+                          <i class="las la-phone"></i>
+                        </span>
+      
+                        <span class="menu__item-name"> Contacts </span>
+                      </span>
+      
+                      <span class="menu__icon menu__icon--small">
+                        <i class="las la-angle-right"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="./" class="menu__link">
+                      <span class="menu__text">
+                        <span class="menu__icon menu__icon--medium">
+                          <i class="las la-stream"></i>
+                        </span>
+      
+                        <span class="menu__item-name"> Features</span>
+                      </span>
+      
+                      <span class="menu__icon menu__icon--small">
+                        <i class="las la-angle-right"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="./" class="menu__link">
+                      <span class="menu__text">
+                        <span class="menu__icon menu__icon--medium">
+                          <i class="las la-book"></i>
+                        </span>
+      
+                        <span class="menu__item-name"> Library</span>
+                      </span>
+                    </a>
+                  </li> 
                 </ul>
-                <ul>
-                  <li>></li>
-                  <li>></li>
-                  <li>></li>
-                  <li>></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="cont">
-              <div class="element__aside">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="element__aside"></div>
-            <div class="element__aside"></div>
-            <div class="element__aside"></div>
           </div>
-          <div class="aside__element"></div>
-          <div class="aside__element"></div>
+          <div class="aside__element">
+            <h3 class="aside__h2">Settings & Schedules</h3>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="./" class="menu__link">
+                  <span class="menu__text">
+                    <span class="menu__icon menu__icon--medium">
+                      <i class="las la-wallet"></i>
+                    </span>
+  
+                    <span class="menu__item-name"> Base Wallet </span>
+                  </span>
+  
+                  <span class="menu__icon menu__icon--small">
+                    <i class="las la-angle-right"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="./" class="menu__link">
+                  <span class="menu__text">
+                    <span class="menu__icon menu__icon--medium">
+                      <i class="lar la-address-book"></i>
+                    </span>
+  
+                    <span class="menu__item-name"> My Contacts </span>
+                  </span>
+  
+                  <span class="menu__icon menu__icon--small">
+                    <i class="las la-angle-right"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="./" class="menu__link">
+                  <span class="menu__text">
+                    <span class="menu__icon menu__icon--medium">
+                      <i class="las la-file-invoice"></i>
+                    </span>
+  
+                    <span class="menu__item-name"> Invoices </span>
+                  </span>
+  
+                  <span class="menu__icon menu__icon--small">
+                    <i class="las la-angle-right"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="./" class="menu__link">
+                  <span class="menu__text">
+                    <span class="menu__icon menu__icon--medium">
+                      <i class="las la-file-invoice"></i>
+                    </span>
+  
+                    <span class="menu__item-name"> Schedules </span>
+                  </span>
+  
+                  <span class="menu__icon menu__icon--small">
+                    <i class="las la-angle-right"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="aside__element">
+            
+
+
+          </div>
         </aside>
       </div>
       <div class="main">
