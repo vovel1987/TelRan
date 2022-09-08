@@ -66,7 +66,7 @@
       }
       .aside__header {
         height: 10%;
-        background-color: lightblue;
+        background-color: #f6f7ff;
         display: flex;
         justify-content: space-around;
       }
@@ -79,8 +79,8 @@
       }
       .aside__element {
         height: 30%;
-        background-color: khaki;
-        border: 1px solid black;
+        background-color: #f6f7ff;
+       
       }
       .header__block {
       }
@@ -191,6 +191,47 @@
     text-align: initial;
     padding-left: 1rem;
 }
+.aside__element.side__element--footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background: linear-gradient(333deg, #784675, transparent);
+}
+
+h2.aside__h2 {
+    margin: 0 auto;
+}
+p.aside__p {
+    margin: 0 auto;
+    color: #bebebe;
+    text-align: center;
+}
+li *{
+  color: #a0a1aa;
+}
+button.element__aside {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: hidden;
+    margin: -2rem;
+
+}
+i.las.la-question {
+    font-size: 35px;
+    color: white;
+}
+span.aside__input {
+    background: red;
+    border-radius: 50%;
+}
+
+
     </style>
   </head>
   <body>
@@ -343,7 +384,24 @@
               </li>
             </ul>
           </div>
-          <div class="aside__element">
+          <div class="aside__element side__element--footer">
+            <button class="element__aside">
+              <span class="aside__input">
+                
+                <i class="las la-question"></i>
+              </span>
+            </button>
+            <h2 class="aside__h2">Help Centr</h2>
+            <p class="aside__p">Hoving trouble in Finti.Please contact us for more questions</p>
+            <span>
+              
+              <a href="">
+                <span> 
+                  <input type="text" placeholder="Go To Help Center">
+                </span>
+              </a>
+            </span>
+
             
 
 
