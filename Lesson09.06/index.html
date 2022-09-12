@@ -266,6 +266,7 @@ span.aside__input {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 10px;
 }
     
 
@@ -277,13 +278,15 @@ span.aside__input {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 10px;
 }
 
 .article__element3 {
     width: calc(100%/3);
     height: 150%;
-    background: #e6e1e7 ;
+    background: #d4f8d3  ;
     margin-top: -4rem;
+    border-radius: 10px;
 }
 .block__article {
     height: 30%;
@@ -391,6 +394,56 @@ li.element__li2 {
 i.las.la-question.las.la-question-element {
     background: grey;
     border-radius: 50%;
+}
+.element3__icon{
+  width: 40px;
+  height: 40px;
+  padding-left: 1rem;
+}
+
+span.element3__text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    align-content: space-around;
+}
+span.element3__text1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    align-content: space-around;
+    padding-top: 0.5rem;
+}
+ul.element3__item {
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0 auto;
+    padding-inline-start: 0;
+    margin-left: 1rem;
+}
+li.element3__listitem1 {
+    list-style: none;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+li.element3__listitem2 {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+li.element3__listitem3 {
+    list-style: none;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+li.element3__listitem4 {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 
@@ -643,8 +696,30 @@ i.las.la-question.las.la-question-element {
           </ul>
         </span>
      </div>
-      <div class="article__element3"></div>
-    </article>
+      <div class="article__element3">
+        <span class="element3__text">
+
+          <img  class="element3__icon" src="./image.img/icons8-mastercard-24.png" alt="Card">
+          <ul class="element3__item">
+            <li class="element3__listitem1">card number</li>
+            <li class="element3__listitem2">3829 4820 4629 5025</li>
+          </ul>
+        </span>
+        <span class="element3__text1">
+          <ul  class="element3__item element3__item--ul1">
+            <li class="element3__listitem3">card holder name</li>
+            <li class="element3__listitem4">Anita Rose</li>
+          </ul>
+          <ul  class="element3__item">
+            <li class="element3__listitem3">vaid thru</li>
+            <li class="element3__listitem4">09/17</li>
+          </ul>
+        </span>
+
+
+
+      </div>
+   
       </div>
    
         <div class="block__main"></div>
