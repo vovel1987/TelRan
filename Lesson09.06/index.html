@@ -396,8 +396,8 @@ i.las.la-question.las.la-question-element {
     border-radius: 50%;
 }
 .element3__icon{
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   padding-left: 1rem;
 }
 
@@ -468,6 +468,67 @@ li.element3__listitem4 {
     width: calc(100%/3);
     background: aquamarine;
 }
+ul.content__list {
+    padding: 0 auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+li.content__item1 {
+    list-style: none;
+    font-weight: 700;
+    font-size: 12px;
+    /* color: lightgray; */
+    color: #888888;
+}
+li.content__item2 {
+    list-style: none;
+}
+span.content__left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+span.content__texth2 {
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+   
+    padding-right: 1rem;
+}
+.content__text {
+    width: 41px;
+    height: 20px;
+    background: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+}
+h4.content__texth4 {
+    font-size: 12px;
+    color: #5e8072;
+}
+img.content__image {
+    transform: rotate(45deg);
+    color: #5e8072;
+    
+}
+li.content__item3 {
+    list-style: none;
+    font-size: 12px;
+    color: #d2d2d2;
+}
+
+span.content__texth2.content__texth2--blue {
+    color: #584d92;
+}
+
+
 
 
 
@@ -744,9 +805,59 @@ li.element3__listitem4 {
    
       </div>
       <div class="content">
-        <div class="content__block"></div>
-        <div class="content__block"></div>
-        <div class="content__block"></div>
+        <div class="content__block">
+          <ul class="content__list">
+            <li class="content__item1">Tasks in Progress</li>
+            <li class="content__item2">
+              <span class="content__left">
+
+                <span class="content__texth2">210</span>
+                <span class="content__text">
+                  <h4 class="content__texth4" >23</h4>
+                  <img class="content__image" src="./image.img/arrow.png" alt="">
+                </span>
+              </span>
+            </li>
+            <li class="content__item3"> Current Month</li>
+          </ul>
+       
+
+
+        </div>
+
+        <div class="content__block">
+          <ul class="content__list">
+            <li class="content__item1">Tasks Completed</li>
+            <li class="content__item2">
+              <span class="content__left">
+
+                <span class="content__texth2 content__texth2--blue ">185</span>
+                <span class="content__text">
+                  <h4 class="content__texth4 content__texth4--blue" >45</h4>
+                  <img class="content__image content__image--blue" src="./image.img/arrow.png" alt="">
+                </span>
+              </span>
+            </li>
+            <li class="content__item3"> Current Month</li>
+          </ul>
+        </div>
+
+        <div class="content__block">
+          <ul class="content__list">
+            <li class="content__item1">Monthly Tasks Summary</li>
+            <li class="content__item2">
+              <span class="content__left">
+
+                <span class="content__texth2">1.240</span>
+                <span class="content__text">
+                  <h4 class="content__texth4" >145</h4>
+                  <img class="content__image" src="./image.img/arrow.png" alt="">
+                </span>
+              </span>
+            </li>
+            <li class="content__item3"> Current Month</li>
+          </ul>
+        </div>
 
       </div>
 
