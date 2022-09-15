@@ -51,7 +51,7 @@
         box-sizing: border-box;
       }
       .block__header {
-        height: 10%;
+        height: 8%;
         background-color: #f6f7ff ;
       }
       .block__article1 {
@@ -453,7 +453,7 @@ li.element3__listitem4 {
 }
 .content {
     border-bottom: 1px inset rgba(0, 0, 0, 0.096);
-    height: 15%;
+    height: 11%;
     border-top: 1px inset rgba(0, 0, 0, 0.096);
     background: white;
  
@@ -558,14 +558,14 @@ footer.footer-container {
     box-sizing: border-box;
 }
 .footer__block1 {
-    width: 65%;
+    width: 60%;
     height: 96%;
     background-color: #fcfbff ;
     border-radius: 10px;
   
 }
 .footer__block2 {
-    width: 35%;
+    width: 40%;
     height: 96%;
     background: beige;
     /* border: 1px solid black; */
@@ -616,9 +616,97 @@ span.footer__transfers {
 span.footer__transfers.footer__transfers--green {
     color: #848d95;
 }
-
-
-
+ul.footer__list2 {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: .5rem;
+}
+li.footer__caption {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+span.footer__description {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+span.footer__value {
+    font-size: 12px;
+    font-weight: 700;
+    color: #c0c3c2;
+}
+li.footer__item2 {
+    list-style: none;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span.footer__item2 {
+    font-size: 12px;
+}
+span.footer__icon {
+   
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+}
+span.footer__case2 {
+    display: flex;
+    align-items: center;
+}
+span.footer__blocktext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+i.las.la-tint {
+    color: white;
+    
+}
+span.footer__text1 {
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+}
+span.footer__text2 {
+    font-size: 12px;
+}
+span.footer__bill.footer__bill--red {
+    font-size: 12px;
+    
+    font-weight: 700;
+}
+.footer__bill--red{
+  color: #81524f;
+}
+span.footer__icon.footer__icon--red {
+    background: #ff4269;
+}
+i.las.la-dollar-sign {
+    color: white;
+   
+}
+span.footer__bill.footer__bill--green {
+    font-size: 12px;
+    font-weight: 700;
+    color: #384652;
+}
+i.las.la-bolt {
+    color: white;
+    background: #0891fe;
+    border-radius: 4px;
+}
+.block__header {
+    padding: 5px 20px;
+}
 
 
 
@@ -1057,8 +1145,91 @@ font-size: 3rem;
 
 
 
-          <div class="footer__block2"></div>
-          .
+          <div class="footer__block2">
+            <ul class="footer__list2">
+              <li class="footer__caption">
+                <span class="footer__description">Upcoming Transaction</span>
+                <span class="footer__value">View All</span>
+              </li>
+              <li class="footer__item2 "><span class="footer__item2">Today</span></li>
+              <li class="footer__item2">
+                <span class="footer__case2">
+
+                  <span class="footer__icon">
+                    <i class="las la-tint"></i>
+                  </span>
+                  <span class="footer__blocktext">
+
+                    <span class="footer__text1">Water Bill</span>
+                    <span class="footer__text2">Unsuccesfly</span>
+                  </span>
+                </span>
+                <span class="footer__bill footer__bill--red">-280$</span>
+              </li>
+              <li class="footer__item2 "><span class="footer__item2">Tomorrow</span></li>
+              <li class="footer__item2">
+                <span class="footer__case2">
+
+                  <span class="footer__icon footer__icon--red">
+                    <i class="las la-dollar-sign"></i>
+                  </span>
+                  <span class="footer__blocktext">
+
+                    <span class="footer__text1">Income: Salary Oct</span>
+                    <span class="footer__text2">Succesfly</span>
+                  </span>
+                </span>
+                <span class="footer__bill footer__bill--green">+1200$</span>
+               
+              </li>
+              <li class="footer__item2">
+                <span class="footer__case2">
+
+                  <span class="footer__icon">
+                    <i class="las la-bolt"></i>
+                  </span>
+                  <span class="footer__blocktext">
+
+                    <span class="footer__text1">Electric Bill</span>
+                    <span class="footer__text2">Succesfly</span>
+                  </span>
+                </span>
+                <span class="footer__bill footer__bill--red">-480$</span>
+              </li>
+              <li class="footer__item2">
+                <span class="footer__case2">
+
+                  <span class="footer__icon footer__icon--red">
+                    <i class="las la-dollar-sign"></i>
+                  </span>
+                  <span class="footer__blocktext">
+
+                    <span class="footer__text1">Income: Salary Oct</span>
+                    <span class="footer__text2">Succesfly</span>
+                  </span>
+                </span>
+                <span class="footer__bill footer__bill--green">+1200$</span>
+               
+              </li>
+              <li class="footer__item2">
+                <span class="footer__case2">
+
+                  <span class="footer__icon footer__icon--red">
+                    <i class="las la-dollar-sign"></i>
+                  </span>
+                  <span class="footer__blocktext">
+
+                    <span class="footer__text1">Income: Salary Oct</span>
+                    <span class="footer__text2">Succesfly</span>
+                  </span>
+                </span>
+                <span class="footer__bill footer__bill--green">+1200$</span>
+               
+              </li>
+
+            </ul>
+          </div>
+          
           
 
 
