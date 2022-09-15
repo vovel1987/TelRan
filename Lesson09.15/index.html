@@ -27,13 +27,17 @@
         background: black;
         color: white;
       }
-      .calendar__item--small{
-        font-size: .75rem;
-      } 
-      .calendar__item--grey{
+      .calendar__item--small {
+        font-size: 0.75rem;
+      }
+      .calendar__item--grey {
         color: rgb(207, 199, 199);
       }
 
+      .calendar__item:not(.calendar__item--small):hover {
+        background-color: lightgrey;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -83,6 +87,43 @@
         <li class="calendar__item">30</li>
         <li class="calendar__item">31</li>
       </ul>
+    </section>
+    <section class="section2">
+      <h3>Upcoming</h3>
+      <div class="timeline">
+        <div class="time__item">
+          <div class="timeline__time">09.00</div>
+          <div class="timeline__line"></div>
+        </div>
+        <div class="time__item">
+          <div class="timeline__time">09.00</div>
+          <div class="timeline__line"></div>
+        </div>
+        <div class="time__item">
+          <div class="timeline__time">09.00</div>
+          <div class="timeline__line"></div>
+        </div>
+        <div class="time__item">
+          <div class="timeline__time">09.00</div>
+          <div class="timeline__line"></div>
+        </div>
+        <div class="time__item">
+          <div class="timeline__time">09.00</div>
+          <div class="timeline__line"></div>
+        </div>
+        <div class="time__item">
+          <div class="timeline__time">09.00</div>
+          <div class="timeline__line"></div>
+        </div>
+        <div class="time__item">
+          <div class="timeline__time">09.00</div>
+          <div class="timeline__line"></div>
+        </div>
+        <div class="time__item">
+          <div class="timeline__time">09.00</div>
+          <div class="timeline__line"></div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
