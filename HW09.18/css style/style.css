@@ -430,3 +430,7 @@ li.card__item2 {
   top: 250px;
   left: 100px;
 }
+.section-card--01 {
+    left: 100px;
+    top: calc(100% / 18*6);
+}
