@@ -374,9 +374,9 @@ img.card__image {
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  top: 135px;
+
   background: #f9f9f9;
-  left: 110px;
+
   box-sizing: border-box;
 }
 li.card__item1 {
@@ -395,9 +395,9 @@ li.card__item2 {
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  top: 300px;
+
   background: #f9f9f9;
-  left: 110px;
+
   box-sizing: border-box;
 }
 .section-card2 {
@@ -407,8 +407,22 @@ li.card__item2 {
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  top: 460px;
+
   background: #f9f9f9;
-  left: 110px;
+
   box-sizing: border-box;
+}
+.section-card--09 {
+  top: 130px;
+  left: 100px;
+}
+
+.section-card--13 {
+  top: 300px;
+  left: 100px;
+}
+
+.section-card2.section-card--16 {
+  top: 460px;
+  left: 100px;
 }
