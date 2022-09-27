@@ -354,7 +354,7 @@ i.las.la-user-ninja {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 span.nummer {
   font-size: 16px;
@@ -449,12 +449,18 @@ a.nav__microphone {
 .nav__kamera {
   font-size: 20px;
 }
+.aside{
+  background: linear-gradient(0deg, #e5e4e4, transparent);
+}
+.aside__nav{
+  background-color: white;
+}
 .aside__content {
   padding-top: 10px;
   box-sizing: border-box;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #fcfbfc;
+  
 }
 h2.content__title {
   font-size: 22px;
@@ -550,7 +556,7 @@ img.monkey {
 }
 .aside__footer {
   border-top: 0.5px inset;
-  background-color: #fcfbfc;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -600,7 +606,7 @@ input.aside__footer--input {
   width: 80%;
   border: none;
   border-radius: 10px;
-  background-color: #fcfbfc;
+  background: #d3d3d300;
 }
 .aside__footer--input:hover {
   background-color: white;
@@ -693,4 +699,11 @@ h3.link__text--blue{
 }
 .footer__button--blue{
   background-color: blue;
+}
+.messages{
+  overflow-y: scroll;
+  height: 90%;
+}
+.messages::-webkit-scrollbar{
+  display: none;
 }
