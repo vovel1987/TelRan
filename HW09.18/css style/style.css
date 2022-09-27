@@ -477,10 +477,15 @@ li.card__item2 {
     top: 0;
   }
   aside.aside {
-    transform: translateX(-170%);
+    transform: translateX(-100%);
    z-index: 1;
     transition-duration: .5s;
     position: fixed;
+}
+aside.aside {
+  width: 50%;
+  background: #f9f9f9;
+  height: 100%;
 }
 p.link__descr {
   font-size: 18px;
