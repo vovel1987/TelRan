@@ -684,3 +684,13 @@ i.las.la-camera:hover {
   height: 23px;
   background-color: red;
 }
+
+.nav__main--white{
+  background-color: white;
+}
+h3.link__text--blue{
+  color: blue;
+}
+.footer__button--blue{
+  background-color: blue;
+}
