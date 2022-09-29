@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>maket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css style/style.css" />
     <link
       rel="stylesheet"
@@ -12,13 +18,18 @@
     />
   </head>
   <body>
+    <div class="burger burger--open" onclick="toggleMenu()">
+      <div class="burger__line burger__line--open"></div>
+      <div class="burger__line burger__line--open"></div>
+      <div class="burger__line burger__line--open"></div>
+    </div>
     <div class="wrapper">
-      <sidebar class="sidebar">
+      <sidebar class="sidebar sidebar--open">
         <div class="logo">
           <i class="las la-cube"></i>
           <h2 class="logo_-text">Shark</h2>
         </div>
-        <ul class="sidebar_list">
+        <ul class="sidebar_list sidebar_list--1200px">
           <li class="sidebar__item">
             <a href="" class="sidebar__link">
               <span class="link__icon">
@@ -171,7 +182,7 @@
         <div class="messages">
           <div class="messages__content">
             <div class="all">
-              <div class="messages__avatar">
+              <div class="messages__avatar ">
                 <i class="las la-user-ninja las la-user-ninja--avatar"></i>
                 <div class="punkt">
                   <div class="gree"></div>
@@ -311,7 +322,7 @@
       <aside class="aside">
         <div class="aside__nav">
           <div class="nav__avatar">
-            <div class="messages__avatar">
+            <div class="messages__avatar messages__avatar--chat ">
               <i class="las la-user-ninja las la-user-ninja--avatar"></i>
               <div class="punkt">
                 <div class="gree"></div>
@@ -346,7 +357,7 @@
           <div class="aside__article">
             <div class="content__messages1">
               <div class="messages__time">
-                <h3 class="time">12:25</h3>
+                <time class="time">12:25</time>
               </div>
               <div class="messages__text1">
                 <h3 class="text">Hello!</h3>
@@ -358,7 +369,7 @@
             </div>
             <div class="content__messages2">
               <div class="messages__time">
-                <h3 class="time">12:28</h3>
+                <time class="time">12:28</time>
               </div>
               <div class="messages__text2">
                 <h3 class="text">Hi</h3>
@@ -368,7 +379,7 @@
 
             <div class="content__messages1">
               <div class="messages__time">
-                <h3 class="time">12:29</h3>
+                <time class="time">12:29</time>
               </div>
               <div class="messages__text3">
                 <h3 class="text">Okay,thank you very much for the speed</h3>
@@ -378,9 +389,10 @@
                 <h3 class="time">VIEWED AT</h3>
               </div>
             </div>
+
             <div class="content__messages2 content__messages2--last">
               <div class="messages__time">
-                <h3 class="time">12:30</h3>
+                <time class="time">12:30</time>
               </div>
               <div class="messages__text4">
                 <h3 class="text">Catch</h3>
@@ -442,5 +454,16 @@
         </div>
       </aside>
     </div>
+    <script>
+      function toggleMenu() {
+        var sidebar = document.querySelector(".sidebar");
+        var burger = document.querySelector(".burger");
+        var burger__line = document.querySelectorAll(".burger__line");
+
+        sidebar.classList.toggle("sidebar--open");
+        burger.classList.toggle("burger--open");
+        burger__line.classList.toggle("burger__line--open");
+      }
+    </script>
   </body>
 </html>
