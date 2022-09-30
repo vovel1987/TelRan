@@ -6,6 +6,6 @@
 
 - HW09.19 [Open in GitHub Pages](https://vovel1987.github.io/TelRan/HW09.19/)
 
-- HW09.26 [Open in GitHub Pages](https://vovel1987.github.io/TelRan/HW09.26/)
+- HW09.26 [Open in GitHub Pages](
 
 
