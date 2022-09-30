@@ -18,13 +18,13 @@
     />
   </head>
   <body>
-    <div class="burger burger--open" onclick="toggleMenu()">
-      <div class="burger__line burger__line--open"></div>
-      <div class="burger__line burger__line--open"></div>
-      <div class="burger__line burger__line--open"></div>
+    <div class="burger " onclick="toggleMenu()">
+      <div class="burger__line  "></div>
+      <div class="burger__line   "></div>
+      <div class="burger__line   "></div>
     </div>
     <div class="wrapper">
-      <sidebar class="sidebar sidebar--open">
+      <sidebar class="sidebar ">
         <div class="logo">
           <i class="las la-cube"></i>
           <h2 class="logo_-text">Shark</h2>
@@ -182,19 +182,27 @@
         <div class="messages">
           <div class="messages__content">
             <div class="all">
-              <div class="messages__avatar ">
-                <i class="las la-user-ninja las la-user-ninja--avatar"></i>
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
                 <div class="punkt">
                   <div class="gree"></div>
                 </div>
-              </div>
+              </figure>
               <ul class="messages__list">
-                <li class="messages__item messages__item--black">Michael B.</li>
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Michael B.
+                  </h2>
+                </li>
                 <li class="messages__item messages__item--transparent">
-                  Project Manager
+                  <h2 class="message__avatar message__avatar--size2">
+                    Project Manager
+                  </h2>
                 </li>
                 <li class="messages__item messages__item--lightblack">
-                  Sent you to file
+                  <h2 class="message__avatar message__avatar--size3">
+                    Sent you the file
+                  </h2>
                 </li>
               </ul>
             </div>
@@ -202,21 +210,30 @@
               <span class="nummer">2</span>
             </div>
           </div>
+
           <div class="messages__content">
             <div class="all">
-              <div class="messages__avatar">
-                <i class="las la-user-ninja las la-user-ninja--avatar"></i>
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
                 <div class="punkt">
                   <div class="gree"></div>
                 </div>
-              </div>
+              </figure>
               <ul class="messages__list">
-                <li class="messages__item messages__item--black">Katie W.</li>
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Katie W.
+                  </h2>
+                </li>
                 <li class="messages__item messages__item--transparent">
-                  Middle Designer
+                  <h2 class="message__avatar message__avatar--size2">
+                    Middle Designer
+                  </h2>
                 </li>
                 <li class="messages__item messages__item--lightblack">
-                  Sent you tomorrow...
+                  <h2 class="message__avatar message__avatar--size3">
+                    See you tomorow
+                  </h2>
                 </li>
               </ul>
             </div>
@@ -227,94 +244,243 @@
 
           <div class="messages__content">
             <div class="all">
-              <div class="messages__avatar">
-                <i class="las la-user-ninja las la-user-ninja--avatar"></i>
-              </div>
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
+                <div class="punkt punkt--hidden">
+                  <div class="gree"></div>
+                </div>
+              </figure>
               <ul class="messages__list">
-                <li class="messages__item messages__item--black">Arnold J.</li>
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Arnold J.
+                  </h2>
+                </li>
                 <li class="messages__item messages__item--transparent">
-                  UI Designer
+                  <h2 class="message__avatar message__avatar--size2">
+                    UX Designer
+                  </h2>
                 </li>
                 <li class="messages__item messages__item--lightblack">
-                  Hi I checked the layout agai..
+                  <h2 class="message__avatar message__avatar--size3">
+                    Hi I checked the layout again
+                  </h2>
                 </li>
               </ul>
+            </div>
+            <div class="messages__nummer messages__nummer--hiden">
+              <span class="nummer">2</span>
             </div>
           </div>
 
           <div class="messages__content">
             <div class="all">
-              <div class="messages__avatar">
-                <i class="las la-user-ninja las la-user-ninja--avatar"></i>
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
                 <div class="punkt">
                   <div class="gree"></div>
                 </div>
-              </div>
+              </figure>
               <ul class="messages__list">
-                <li class="messages__item messages__item--black">Fannie K.</li>
-                <li class="messages__item messages__item--transparent">
-                  HR Manager
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Fanie k.
+                  </h2>
                 </li>
-                <li class="messages__item messages__item--lightblack">Okay!</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="messages__content">
-            <div class="all">
-              <div class="messages__avatar">
-                <i class="las la-user-ninja las la-user-ninja--avatar"></i>
-                <div class="punkt--M">
-                  <div class="gree--M"></div>
-                </div>
-              </div>
-              <ul class="messages__list">
-                <li class="messages__item messages__item--black">Isaac. A</li>
                 <li class="messages__item messages__item--transparent">
-                  SMM Manager
+                  <h2 class="message__avatar message__avatar--size2">
+                    HR Manager
+                  </h2>
                 </li>
                 <li class="messages__item messages__item--lightblack">
-                  I don't think we're going to finish
+                  <h2 class="message__avatar message__avatar--size3">Okay!</h2>
                 </li>
               </ul>
+            </div>
+            <div class="messages__nummer messages__nummer--hiden">
+              <span class="nummer">2</span>
             </div>
           </div>
 
           <div class="messages__content">
             <div class="all">
-              <div class="messages__avatar">
-                <i class="las la-user-ninja las la-user-ninja--avatar"></i>
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
+                <div class="punkt punkt--hidden">
+                  <div class="gree"></div>
+                </div>
+              </figure>
+              <ul class="messages__list">
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Isaac I.
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--transparent">
+                  <h2 class="message__avatar message__avatar--size2">
+                    SMM Manager
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--lightblack">
+                  <h2 class="message__avatar message__avatar--size3">
+                    I dont think were going to finish
+                  </h2>
+                </li>
+              </ul>
+            </div>
+            <div class="messages__nummer messages__nummer--hiden">
+              <span class="nummer">2</span>
+            </div>
+          </div>
+
+          <div class="messages__content">
+            <div class="all">
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
                 <div class="punkt">
                   <div class="gree"></div>
                 </div>
-              </div>
+              </figure>
               <ul class="messages__list">
-                <li class="messages__item messages__item--black">Jacob</li>
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">Jakob</h2>
+                </li>
                 <li class="messages__item messages__item--transparent">
-                  UX Designer
+                  <h2 class="message__avatar message__avatar--size2">
+                    UX Designer
+                  </h2>
                 </li>
                 <li class="messages__item messages__item--lightblack">
-                  Sorry.Friend.I wont do it again.
+                  <h2 class="message__avatar message__avatar--size3">
+                    Sorry.Friend I want to do again
+                  </h2>
                 </li>
               </ul>
+            </div>
+            <div class="messages__nummer messages__nummer--hiden">
+              <span class="nummer">2</span>
             </div>
           </div>
 
           <div class="messages__content">
             <div class="all">
-              <div class="messages__avatar">
-                <i class="las la-user-ninja las la-user-ninja--avatar"></i>
-                <div class="punkt--M">
-                  <div class="gree--M"></div>
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
+                <div class="punkt punkt--hidden">
+                  <div class="gree"></div>
                 </div>
-              </div>
+              </figure>
               <ul class="messages__list">
-                <li class="messages__item messages__item--black">Lisa O.</li>
-                <li class="messages__item messages__item--transparent"></li>
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Lisa O.
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--transparent">
+                  <h2 class="message__avatar message__avatar--size2"></h2>
+                </li>
                 <li class="messages__item messages__item--lightblack">
-                  Online. 1 hour agou.
+                  <h2 class="message__avatar message__avatar--size3">
+                    Online 1 Hour again
+                  </h2>
                 </li>
               </ul>
+            </div>
+            <div class="messages__nummer messages__nummer--hiden">
+              <span class="nummer">2</span>
+            </div>
+          </div>
+
+          <div class="messages__content">
+            <div class="all">
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
+                <div class="punkt">
+                  <div class="gree"></div>
+                </div>
+              </figure>
+              <ul class="messages__list">
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Michael B.
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--transparent">
+                  <h2 class="message__avatar message__avatar--size2">
+                    Project Manager
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--lightblack">
+                  <h2 class="message__avatar message__avatar--size3">
+                    Sent you the file
+                  </h2>
+                </li>
+              </ul>
+            </div>
+            <div class="messages__nummer">
+              <span class="nummer">2</span>
+            </div>
+          </div>
+
+          <div class="messages__content">
+            <div class="all">
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
+                <div class="punkt">
+                  <div class="gree"></div>
+                </div>
+              </figure>
+              <ul class="messages__list">
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Michael B.
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--transparent">
+                  <h2 class="message__avatar message__avatar--size2">
+                    Project Manager
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--lightblack">
+                  <h2 class="message__avatar message__avatar--size3">
+                    Sent you the file
+                  </h2>
+                </li>
+              </ul>
+            </div>
+            <div class="messages__nummer">
+              <span class="nummer">2</span>
+            </div>
+          </div>
+
+          <div class="messages__content">
+            <div class="all">
+              <figure class="messages__avatar">
+                <img src="./image/foto.png" class="image__chat" alt="Image" />
+                <div class="punkt">
+                  <div class="gree"></div>
+                </div>
+              </figure>
+              <ul class="messages__list">
+                <li class="messages__item messages__item--black">
+                  <h2 class="message__avatar message__avatar--size1">
+                    Michael B.
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--transparent">
+                  <h2 class="message__avatar message__avatar--size2">
+                    Project Manager
+                  </h2>
+                </li>
+                <li class="messages__item messages__item--lightblack">
+                  <h2 class="message__avatar message__avatar--size3">
+                    Sent you the file
+                  </h2>
+                </li>
+              </ul>
+            </div>
+            <div class="messages__nummer">
+              <span class="nummer">2</span>
             </div>
           </div>
         </div>
@@ -322,12 +488,13 @@
       <aside class="aside">
         <div class="aside__nav">
           <div class="nav__avatar">
-            <div class="messages__avatar messages__avatar--chat ">
-              <i class="las la-user-ninja las la-user-ninja--avatar"></i>
-              <div class="punkt">
+            <figure class="messages__avatar messages__avatar--aside">
+              <img src="./image/foto.png" class="image__chat" alt="Image" />
+              <div class="punkt punkt--avatar">
                 <div class="gree"></div>
               </div>
-            </div>
+            </figure>
+
             <ul class="messages__list">
               <li class="messages__item messages__item--black">Michael B.</li>
               <li class="messages__item messages__item--transparent">Online</li>
@@ -336,13 +503,14 @@
           <div class="nav__content">
             <div class="nav__input">
               <input class="input" type="text" name="" id="navigation" />
+
               <a class="nav__search" href="">
-                <i class="las la-search"></i>
+                <i class="las la-search la-search--nav"></i>
               </a>
             </div>
             <button class="nav__mikrofon">
               <a class="nav__microphone" href="">
-                <i class="las la-microphone"></i>
+                <i class="las la-microphone la-microphone--nav"></i>
               </a>
             </button>
             <button class="nav__camera">
@@ -382,13 +550,19 @@
                 <time class="time">12:29</time>
               </div>
               <div class="messages__text3">
-                <h3 class="text">Okay,thank you very much for the speed</h3>
+                <h3 class="text">
+                  Okay,thank you very much for the speed
+                  kjkjhkhkjhkhkjhkjhkjhkhkhj
+                </h3>
               </div>
 
               <div class="messages__time">
                 <h3 class="time">VIEWED AT</h3>
               </div>
             </div>
+
+
+
 
             <div class="content__messages2 content__messages2--last">
               <div class="messages__time">
@@ -406,14 +580,112 @@
                 </ul>
               </div>
             </div>
+
+
+
+
+            
+            <div class="content__messages2 content__messages2--last">
+              <div class="messages__time">
+                <time class="time">12:30</time>
+              </div>
+              <div class="messages__text4">
+                <h3 class="text">Catch</h3>
+                <img class="monkey" src="./image/monkey.png" alt="" />
+              </div>
+              <div class="messages__text4">
+                <img class="doc" src="./image/doc.png" alt="" />
+                <ul class="mesage__list">
+                  <li class="mesage__item mesage__item--brief">Brief.doc</li>
+                  <li class="mesage__item mesage__item--gray">148 KB</li>
+                </ul>
+              </div>
+            </div>
+
+
+
+            
+            <div class="content__messages2 content__messages2--last">
+              <div class="messages__time">
+                <time class="time">12:30</time>
+              </div>
+              <div class="messages__text4">
+                <h3 class="text">Catch</h3>
+                <img class="monkey" src="./image/monkey.png" alt="" />
+              </div>
+              <div class="messages__text4">
+                <img class="doc" src="./image/doc.png" alt="" />
+                <ul class="mesage__list">
+                  <li class="mesage__item mesage__item--brief">Brief.doc</li>
+                  <li class="mesage__item mesage__item--gray">148 KB</li>
+                </ul>
+              </div>
+            </div>
+
+
+
+
+
+
+            
+            <div class="content__messages2 content__messages2--last">
+              <div class="messages__time">
+                <time class="time">12:30</time>
+              </div>
+              <div class="messages__text4">
+                <h3 class="text">Catch</h3>
+                <img class="monkey" src="./image/monkey.png" alt="" />
+              </div>
+              <div class="messages__text4">
+                <img class="doc" src="./image/doc.png" alt="" />
+                <ul class="mesage__list">
+                  <li class="mesage__item mesage__item--brief">Brief.doc</li>
+                  <li class="mesage__item mesage__item--gray">148 KB</li>
+                </ul>
+              </div>
+            </div>
+
+
+
+
+
+
+            
+            <div class="content__messages2 content__messages2--last">
+              <div class="messages__time">
+                <time class="time">12:30</time>
+              </div>
+              <div class="messages__text4">
+                <h3 class="text">Catch</h3>
+                <img class="monkey" src="./image/monkey.png" alt="" />
+              </div>
+              <div class="messages__text4">
+                <img class="doc" src="./image/doc.png" alt="" />
+                <ul class="mesage__list">
+                  <li class="mesage__item mesage__item--brief">Brief.doc</li>
+                  <li class="mesage__item mesage__item--gray">148 KB</li>
+                </ul>
+              </div>
+            </div>
+
+
+
+
+
+            
           </div>
         </div>
         <div class="aside__footer">
-          <input
-            class="aside__footer--input"
-            type="text"
-            placeholder="Write a message..."
-          />
+          <div class="footer__input1">
+
+            <input
+              class="aside__footer--input"
+              type="text"
+              placeholder="Write a message..."
+              autofocus
+            />
+          </div>
+
           <div class="aside__footer--block">
             <button class="footer__button">
               <a class="aside__newpage" href="">
@@ -462,6 +734,8 @@
 
         sidebar.classList.toggle("sidebar--open");
         burger.classList.toggle("burger--open");
+        
+
         burger__line.classList.toggle("burger__line--open");
       }
     </script>
